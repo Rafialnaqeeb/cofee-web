@@ -1,0 +1,162 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+
+}
+
+.heading {
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.postimg.cc/zBkhh0hQ/mike-kenneally-TD4-DBagg2w-E-unsplash.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(235, 227, 227);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h2 {
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-links {
+    width: 20%;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.links li {
+    padding: 0 5px;
+}
+.links li a {
+    text-decoration: none;
+    color: rgb(135, 226, 129);
+    padding: 2px 1px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.links li a:hover,
+.links li a:active {
+    color: rgb(255, 239, 239);
+    border-bottom: 1px solid rgb(97, 231, 97);
+}
+
+.heading-text {
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 40px;
+
+}
+
+.heading-text .intro-text {
+    margin: 30px  0;
+}
+
+.heading-text .intro-text h1 {
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    padding: 7px 14px;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(56, 186, 56);
+    color: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: rgb(42, 101, 42);
+    color: white;
+}
+.section1{
+  width:100%;
+    height:auto;
+  background-color: #d4d4d4;
+  
+}
+.section1 h1{
+  margin:auto;
+  width:100%;
+    height:60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:2.3rem;
+  
+  
+}
+.main-content{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.main-content img{
+  width:30%;
+  height:400px;
+  margin:10px;
+ 
+}
+.main-content p{
+  width:50%;
+  margin:0px;
+  height:400px;
+  display:flex;
+  font-size:12.5px;
+}
+.contaner_img{
+  width:30%;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+ position: static;
+  float:center;
+}
+.section2{
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+ position: static;
+  float:center;
+  
+}
+.container h5{
+  margin: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  float:center;
+  
+}
